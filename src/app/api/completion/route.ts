@@ -1,11 +1,18 @@
 import { generateText } from "ai";
 import { groq } from "@ai-sdk/groq";
 
-export async function POST() {
-  const { text } = await generateText({
-    model: groq("openai/gpt-oss-120b"),
-    prompt: "Explain what an LLM is?",
-  });
+export async function POST(req: Request) {
+  try {
+    const { prompt } = await req.json();
 
-  return Response.json({ text });
+    const { text } = await generateText({
+      model: groq("openai/gpt-oss-120b"),
+      prompt,
+    });
+
+    return Response.json({ text });
+  } catch (err) {
+    console.log({ err });
+    return Response.json({ error: "Failed to generate text!", status: 500 });
+  }
 }
