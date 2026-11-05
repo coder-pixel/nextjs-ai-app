@@ -1,5 +1,6 @@
 import { generateSpeech } from "ai";
 import { createOpenAI } from "@ai-sdk/openai";
+import { groq } from "@ai-sdk/groq";
 
 // Create an OpenAI-compatible instance routed directly to Groq
 const groqSpeechProvider = createOpenAI({
