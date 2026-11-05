@@ -68,6 +68,100 @@ export default function Home() {
               </span>
             </div>
           </Link>
+          <Link
+            href="/ui/chat"
+            className="group block rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:border-indigo-200 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-500/40"
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <h2 className="text-lg font-semibold text-zinc-950 dark:text-zinc-50">
+                  Chat
+                </h2>
+                <p className="mt-2 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+                  Chat with model.
+                </p>
+              </div>
+              <span className="mt-1 text-zinc-400 transition-transform group-hover:translate-x-0.5 group-hover:text-indigo-500">
+                →
+              </span>
+            </div>
+          </Link>
+
+          <Link
+            href="/ui/structured-data"
+            className="group block rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:border-indigo-200 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-500/40"
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <h2 className="text-lg font-semibold text-zinc-950 dark:text-zinc-50">
+                  Structured Data (Object)
+                </h2>
+                <p className="mt-2 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+                  Getting response from AI in a predefined structured way (Object)
+                </p>
+              </div>
+              <span className="mt-1 text-zinc-400 transition-transform group-hover:translate-x-0.5 group-hover:text-indigo-500">
+                →
+              </span>
+            </div>
+          </Link>
+
+          <Link
+            href="/ui/structured-array"
+            className="group block rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:border-indigo-200 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-500/40"
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <h2 className="text-lg font-semibold text-zinc-950 dark:text-zinc-50">
+                  Structured Data (Array)
+                </h2>
+                <p className="mt-2 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+                  Getting response from AI in a predefined structured way in terms of Array.
+                </p>
+              </div>
+              <span className="mt-1 text-zinc-400 transition-transform group-hover:translate-x-0.5 group-hover:text-indigo-500">
+                →
+              </span>
+            </div>
+          </Link>
+
+          <Link
+            href="/ui/structured-enum"
+            className="group block rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:border-indigo-200 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-500/40"
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <h2 className="text-lg font-semibold text-zinc-950 dark:text-zinc-50">
+                  Structured Enum (Enum)
+                </h2>
+                <p className="mt-2 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+                  Getting response from AI in a predefined structured way in terms of Enum.
+                </p>
+              </div>
+              <span className="mt-1 text-zinc-400 transition-transform group-hover:translate-x-0.5 group-hover:text-indigo-500">
+                →
+              </span>
+            </div>
+          </Link>
+
+          <Link
+            href="/ui/multi-modal-chat"
+            className="group block rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:border-indigo-200 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-500/40"
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <h2 className="text-lg font-semibold text-zinc-950 dark:text-zinc-50">
+                  Multi Modal Chat
+                </h2>
+                <p className="mt-2 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+                  Interacting with both text and images!!
+                </p>
+              </div>
+              <span className="mt-1 text-zinc-400 transition-transform group-hover:translate-x-0.5 group-hover:text-indigo-500">
+                →
+              </span>
+            </div>
+          </Link>
         </div>
       </main>
     </div>
