@@ -295,6 +295,25 @@ export default function Home() {
               </span>
             </div>
           </Link>
+
+          <Link
+            href="/ui/reasoning"
+            className="group block rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:border-indigo-200 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-500/40"
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <h2 className="text-lg font-semibold text-zinc-950 dark:text-zinc-50">
+                  AI Reasoning
+                </h2>
+                <p className="mt-2 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+                  Visualize AI Reasoning while AI proccesses our request/text
+                </p>
+              </div>
+              <span className="mt-1 text-zinc-400 transition-transform group-hover:translate-x-0.5 group-hover:text-indigo-500">
+                →
+              </span>
+            </div>
+          </Link>
         </div>
       </main>
     </div>
