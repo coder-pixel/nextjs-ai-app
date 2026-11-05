@@ -200,6 +200,63 @@ export default function Home() {
               </span>
             </div>
           </Link>
+
+          <Link
+            href="/ui/tools"
+            className="group block rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:border-indigo-200 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-500/40"
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <h2 className="text-lg font-semibold text-zinc-950 dark:text-zinc-50">
+                  Basic Tools Call (With Hard coded data)
+                </h2>
+                <p className="mt-2 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+                  Call tools to do extra work.
+                </p>
+              </div>
+              <span className="mt-1 text-zinc-400 transition-transform group-hover:translate-x-0.5 group-hover:text-indigo-500">
+                →
+              </span>
+            </div>
+          </Link>
+
+          <Link
+            href="/ui/multiple-tools"
+            className="group block rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:border-indigo-200 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-500/40"
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <h2 className="text-lg font-semibold text-zinc-950 dark:text-zinc-50">
+                  Multiple Tools Call (With Hard coded data)
+                </h2>
+                <p className="mt-2 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+                  First Get the location info from the name and then get the weather.
+                </p>
+              </div>
+              <span className="mt-1 text-zinc-400 transition-transform group-hover:translate-x-0.5 group-hover:text-indigo-500">
+                →
+              </span>
+            </div>
+          </Link>
+
+          <Link
+            href="/ui/api-tool"
+            className="group block rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:border-indigo-200 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-500/40"
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <h2 className="text-lg font-semibold text-zinc-950 dark:text-zinc-50">
+                  API Tools Call (API: https://www.weatherapi.com/)
+                </h2>
+                <p className="mt-2 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+                  Get real time weather information with the help of weather api.
+                </p>
+              </div>
+              <span className="mt-1 text-zinc-400 transition-transform group-hover:translate-x-0.5 group-hover:text-indigo-500">
+                →
+              </span>
+            </div>
+          </Link>
         </div>
       </main>
     </div>
